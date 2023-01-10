@@ -37,6 +37,18 @@
             ],
             "problemMatcher": "$msCompile"
         },
+        {
+            "label": "build-linq-5-6-1",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/linq/5-6/1/1.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
         
     ]
 }

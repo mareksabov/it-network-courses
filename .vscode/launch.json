@@ -50,5 +50,21 @@
             "console": "externalTerminal",
             "stopAtEntry": false
         },
+        {
+            // Use IntelliSense to find out which attributes exist for C# debugging
+            // Use hover for the description of the existing attributes
+            // For further information visit https://github.com/OmniSharp/omnisharp-vscode/blob/master/debugger-launchjson.md
+            "name": "Launch Linq 5-6 1 (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-linq-5-6-1",
+            // If you have changed target frameworks, make sure to update the program path.
+            "program": "${workspaceFolder}/linq/5-6/1/bin/Debug/net7.0/1.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/linq/5-6/1",
+            // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
     ]
 }
