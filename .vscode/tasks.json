@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build1",
+            "label": "build-linq-1-4-1",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -14,31 +14,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "publish1",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "publish",
-                "${workspaceFolder}/linq/1-4/1/1.csproj",
-                "/property:GenerateFullPaths=true",
-                "/consoleloggerparameters:NoSummary"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-        {
-            "label": "watch1",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "watch",
-                "run",
-                "--project",
-                "${workspaceFolder}/linq/1-4/1/1.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        },
-{
-            "label": "build2",
+            "label": "build-linq-1-4-2",
             "command": "dotnet",
             "type": "process",
             "args": [
@@ -50,28 +26,17 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "publish2",
+            "label": "build-linq-1-4-3",
             "command": "dotnet",
             "type": "process",
             "args": [
-                "publish",
-                "${workspaceFolder}/linq/1-4/2/2.csproj",
+                "build",
+                "${workspaceFolder}/linq/1-4/3/3.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
             "problemMatcher": "$msCompile"
         },
-        {
-            "label": "watch2",
-            "command": "dotnet",
-            "type": "process",
-            "args": [
-                "watch",
-                "run",
-                "--project",
-                "${workspaceFolder}/linq/1-4/2/2.csproj"
-            ],
-            "problemMatcher": "$msCompile"
-        }
+        
     ]
 }
